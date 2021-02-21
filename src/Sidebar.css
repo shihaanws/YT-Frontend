@@ -1,0 +1,27 @@
+.sidebar {
+  flex: 0.2;
+  padding: 20px 5px;
+  height: 70%;
+  background-color:  #252525;
+  color: white;
+  left: -100%;
+  animation: slide-open 3s forwards;
+}
+
+@keyframes slide-open{
+  100% {left:0}
+}
+
+.sidebar > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sidebar.close{
+  left:-100%;
+}
+
+

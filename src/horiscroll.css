@@ -1,0 +1,29 @@
+.menu-item {
+    padding: 0 40px;
+    margin: 5px 10px;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+    padding-top: 5px;
+    border-radius: 50px;
+    padding-bottom: 5px;
+    background-color: rgb(206, 206, 206);
+    
+  }
+.menu-item:hover{
+    background-color: rgb(105, 107, 107);
+}
+
+  .menu-item-wrapper.active {
+    /* border: 1px rgb(134, 134, 134) solid; */
+    border-radius: 50px;
+
+  }
+  /* .menu-item.active {
+    border: 1px green solid;
+  } */
+   
+  .scroll-menu-arrow {
+    padding: 20px;
+    cursor: pointer;
+  }
